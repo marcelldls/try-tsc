@@ -1,0 +1,19 @@
+{
+  "name": "try-ts",
+  "version": "1.0.0",
+  "description": "Trying TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [],
+  "author": "marcelldls",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
