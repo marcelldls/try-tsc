@@ -4,6 +4,7 @@
   "description": "Trying TypeScript",
   "main": "index.js",
   "scripts": {
+    "compile": "tsc",
     "test": "test",
     "lint": "eslint . --ext ts"
   },
