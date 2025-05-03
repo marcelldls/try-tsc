@@ -5,6 +5,12 @@
             "name": "Run npm start",
             "request": "launch",
             "type": "node-terminal"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Launch my cool app",
+            "file": "${workspaceFolder}/index.html"
         }
     ]
 }
