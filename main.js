@@ -37,3 +37,4 @@ var SubClass = /** @class */ (function (_super) {
 }(BaseClass));
 var myInstance = new SubClass("Eish");
 myInstance.redo();
+//# sourceMappingURL=main.js.map

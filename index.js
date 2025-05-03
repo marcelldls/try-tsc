@@ -9,3 +9,4 @@ setInterval(function () {
         document.getElementById("myVar").innerHTML = "False";
     }
 }, 1000); // change every 1000 milliseconds (1 second)
+//# sourceMappingURL=index.js.map
