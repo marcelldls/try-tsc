@@ -1,3 +1,4 @@
+"use strict";
 var showTrue = false;
 setInterval(function () {
     showTrue = !showTrue; // toggle between true and false

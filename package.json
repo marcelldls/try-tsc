@@ -4,7 +4,8 @@
   "description": "Trying TypeScript",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "lint": "eslint . --ext ts"
   },
   "repository": {
     "type": "git",
@@ -14,6 +15,9 @@
   "author": "marcelldls",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.8.3"
+    "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3"
   }
 }
