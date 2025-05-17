@@ -1,7 +1,31 @@
+body {
+    background-color: #aee3c3;
+}
+
 h1 {
     color: blue;
 }
 
 p {
     font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+#save {
+    color: rgb(0, 0, 0);
+}
+
+#save:hover {
+    border-color: black;
+}
+
+#clear {
+    color: rgb(255, 0, 0);
+}
+
+#clear:hover {
+    border-color: black;
 }
