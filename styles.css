@@ -1,8 +1,28 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+input,
+button {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #aee3c3;
 }
 
+/* Center everything */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h1 {
+    /* element type selector */
     color: blue;
 }
 
@@ -10,8 +30,18 @@ p {
     font-size: 16px;
 }
 
+input[type="text"] {
+    border-radius: 7px;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid black;
+    transition: outline-color 0.3s ease;
+}
+
 button {
     cursor: pointer;
+    border-radius: 7px;
 }
 
 #save {
@@ -19,7 +49,8 @@ button {
 }
 
 #save:hover {
-    border-color: black;
+    /* id selector */
+    outline: 2px solid black;
 }
 
 #clear {
@@ -27,5 +58,5 @@ button {
 }
 
 #clear:hover {
-    border-color: black;
+    outline: 2px solid black;
 }
